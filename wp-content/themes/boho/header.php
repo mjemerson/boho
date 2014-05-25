@@ -31,12 +31,6 @@
 
 <?php endif; ?>
 
-<div id="search">
-                  <?php get_search_form() ?>
-         </div>
-
-</div>
-
 </div>
 
 <div id="wrapper">
