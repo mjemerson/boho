@@ -29,11 +29,6 @@
 </div>
 </div>
 
-<div class="commentstext"><?php
-  comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', '');
-?> <?php _e('Categories: ', 'newgamer'); ?><?php the_category(', '); ?> <?php the_tags(); ?></div>
-
-
 <div class="post-navigation">
 <div class="previous-post"><?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'newgamer' ) . ' %title' ); ?></div>
 <div class="next-post"><?php next_post_link( '%link', '%title' . _x( ' &rarr;', 'Next post link', 'newgamer' ) . '' ); ?></div>
