@@ -6,7 +6,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+<div class="post-title"><?php the_title(); ?></div>
 <div class="post-date"><?php _e('Posted on ', 'newgamer'); ?><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_time(get_option('date_format').', '.get_option('time_format')) ?></a></div>
 
 <?php if ( has_post_thumbnail()) : ?>
