@@ -18,8 +18,6 @@
 
 <?php the_excerpt(''); ?>
 
-<div class="comm-link"><?php comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', ''); ?></div>
-
 <div class="more-link"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e('Read More', 'newgamer'); ?></a></div>
 
 </div>
