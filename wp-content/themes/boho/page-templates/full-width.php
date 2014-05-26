@@ -26,10 +26,6 @@ get_header(); ?>
 
 </div>
 
-<div class="commentstext"><?php
-  comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', '');
-?></div>
-
 <div class="breaker"></div>
 
 <?php endwhile; else: ?>
