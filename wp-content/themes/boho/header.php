@@ -21,16 +21,8 @@
 <div id="container">
 
 <div id="header">
-
-<?php if ( get_header_image() ) : ?>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="site-logo" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-
-<?php else : ?>
-    
-        <div class='site-title'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></div>
-
-<?php endif; ?>
-
+    <div id="hero">The Bohemian Embassy</div>
+    <div class="logo">The Bohemian Embassy</div>
 </div>
 
 <div id="wrapper">
