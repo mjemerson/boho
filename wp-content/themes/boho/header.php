@@ -18,7 +18,7 @@
 
 <body <?php body_class(); ?>>
 
-<div id="container">
+<div id="container" style="padding-top:0;">
 
 <div id="header">
     <div id="hero">The Bohemian Embassy</div>
