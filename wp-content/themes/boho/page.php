@@ -6,7 +6,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+<h1><?php the_title(); ?></h1>
 
 <?php if ( has_post_thumbnail()) : ?>
    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
