@@ -7,7 +7,7 @@
             <?php } ?>
     </div>
 
-<div class="footer-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?></div>
+<div class="footer-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?></div>
 <div class="toplink"><a href="#"><?php _e('TOP', 'newgamer'); ?></a></div>
 
 </div>
