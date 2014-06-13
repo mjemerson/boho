@@ -1560,3 +1560,11 @@ background: linear-gradient(#2d2d2d, #000000); /* Standard syntax */ }
 body { padding:0; background-image: none !important; }
 
 }
+
+
+/*** CONTACT FORM ***/
+
+#cntctfrm_contact_form input.text { margin: 10px 0; border: 1px solid #999999; padding: 5px; font-family: 'Cabin Condensed',sans-serif; font-weight: 100; }
+
+
+
