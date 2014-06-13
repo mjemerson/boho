@@ -1565,6 +1565,6 @@ body { padding:0; background-image: none !important; }
 /*** CONTACT FORM ***/
 
 #cntctfrm_contact_form input.text { margin: 10px 0; border: 1px solid #999999; padding: 5px; font-family: 'Cabin Condensed',sans-serif; font-weight: 100; }
-
+#cntctfrm_contact_form label { padding: 10px 0 7px 0 !important; }
 
 
