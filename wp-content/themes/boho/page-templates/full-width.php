@@ -1,45 +1,34 @@
-<?php 
-
+<?php
 /**
- * Template Name: Full-width Page Template, No Sidebar
+ * Template Name: Main Gallery Page
  */
 
 get_header(); ?>
 
-<div id="main">
+    <div id="main">
 
-<div id="content-wide">
+        <div id="content">
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <h1>Galleries</h1>
 
-<div class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+            <p>Click on the links below to view our galleries.</p>
 
-<?php if ( has_post_thumbnail()) : ?>
-   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
-   <?php the_post_thumbnail('category-thumb', array('class' => 'none')); ?>
-   </a>
- <?php endif; ?>
+            <?php
 
-<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            $child_pages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=18&echo=0' );
 
-<?php the_content('Read More...'); ?>
+            print_r( $child_pages );
 
-</div>
 
-<div class="breaker"></div>
+            ?>
 
-<?php endwhile; else: ?>
 
-<p><?php _e('Sorry, no posts matched your criteria.', 'newgamer'); ?></p><?php endif; ?>
+        </div>
 
-<?php wp_link_pages(array('next_or_number'=>'next', 'previouspagelink' => '&#8592;', 'nextpagelink'=>'&#8594;')); ?>
+        <?php get_sidebar(); ?>
 
-<?php comments_template(); ?> 
+    </div>
 
-</div>
-
-</div>
-
-<div class="delimiter"></div>
+    <div class="delimiter"></div>
 
 <?php get_footer(); ?>
