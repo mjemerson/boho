@@ -19,13 +19,21 @@
 <?php the_content('Read More...'); ?>
 
 <?php
-
 if($post->ID == 14) { //contact page
-
-    echo "contact page!";
-
+?>
+<div id="social">
+    <a target="_blank" class="facebook" href="http://facebook.com/thebohemianembassy" title="Like us on Facebook">
+        <img src="/wp-content/themes/boho/images/facebook-icon.png" alt="Like us on Facebook" title="Like us on Facebook" />
+    </a>
+    <a target="_blank" class="twitter" href="http://twitter.com/bohemianembassy" title="Follow us on Twitter">
+        <img src="/wp-content/themes/boho/images/twitter-icon.png" alt="Follow us on Twitter" title="Follow us on Twitter" />
+    </a>
+    <a target="_blank" class="youtube" href="http://youtube.com/user/BohemianEmbassyBand" title="Subscribe to us on YouTube">
+        <img src="/wp-content/themes/boho/images/youtube-icon.png" alt="Subscribe to us on YouTube" title="Subscribe to us on YouTube" />
+    </a>
+</div>
+<?php
 }
-
 ?>
 
 </div>
