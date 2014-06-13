@@ -1566,5 +1566,3 @@ body { padding:0; background-image: none !important; }
 
 #cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea { margin: 10px 0; border: 1px solid #999999; padding: 5px; font-family: 'Cabin Condensed',sans-serif; font-weight: 100; font-size: 12px; }
 #cntctfrm_contact_form label { padding: 10px 0 3px 0 !important; display: block; }
-#cntctfrm_contact_message { width: 327px !important; }
-
