@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Main Gallery Page
+ */
+
+get_header(); ?>
 
     <div id="main">
 
