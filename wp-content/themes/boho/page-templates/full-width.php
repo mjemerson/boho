@@ -17,8 +17,11 @@ get_header(); ?>
 
             $child_pages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=18&echo=0' );
 
-            print_r( $child_pages );
+            echo '<ul class="gallery-links">';
 
+                print $child_pages;
+
+            echo '</ul>';
 
             ?>
 
