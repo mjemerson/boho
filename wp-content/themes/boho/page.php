@@ -21,6 +21,7 @@
 <?php
 if($post->ID == 14) { //contact page
 ?>
+<p>Be social! Visit us on Facebook, Twitter and YouTube.</p>
 <div id="social">
     <a target="_blank" class="facebook" href="http://facebook.com/thebohemianembassy" title="Like us on Facebook">
         <img src="/wp-content/themes/boho/images/facebook-icon.png" alt="Like us on Facebook" title="Like us on Facebook" />
