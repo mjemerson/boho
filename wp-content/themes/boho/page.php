@@ -18,6 +18,16 @@
 
 <?php the_content('Read More...'); ?>
 
+<?php
+
+if($post->ID == 14) { //contact page
+
+    echo "contact page!";
+
+}
+
+?>
+
 </div>
 
 <div class="breaker"></div>
